@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
+import './Nav.css'
 
-
-function Header() {
+function Nav() {
   return (
-    <header>
-      <div className="menu-btn">
+    <div>
+         <div className="menu-btn">
         <div className="btn-line"></div>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
@@ -36,8 +36,8 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
-  );
+    </div>
+  )
 }
 
-export default Header;
+export default Nav
